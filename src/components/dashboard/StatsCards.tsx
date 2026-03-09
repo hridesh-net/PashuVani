@@ -28,10 +28,10 @@ const StatsCard: React.FC<StatsCardProps> = ({ icon, label, value, trend, trendU
 
 const StatsCards: React.FC = () => {
     const stats = [
-        { icon: 'pets', label: 'Total Animals', value: '12,840', trend: '12%', trendUp: true, colorClass: 'text-primary', bgColorClass: 'bg-primary/10' },
-        { icon: 'warning', label: 'Active Alerts', value: '24', trend: '5%', trendUp: true, colorClass: 'text-red-600', bgColorClass: 'bg-red-100' },
-        { icon: 'chat_bubble', label: 'Recent Consultations', value: '156', trend: '2%', trendUp: false, colorClass: 'text-blue-600', bgColorClass: 'bg-blue-100' },
-        { icon: 'verified_user', label: 'Verified Farmers', value: '3,420', trend: '8%', trendUp: true, colorClass: 'text-amber-600', bgColorClass: 'bg-amber-100' },
+        { icon: 'groups', label: 'Total Farmers', value: '12,840', trend: '+12.5% vs last month', trendUp: true, colorClass: 'text-primary', bgColorClass: 'bg-primary/10' },
+        { icon: 'warning', label: 'Active AI Alerts', value: '24', trend: '-2.4% vs last week', trendUp: false, colorClass: 'text-red-500', bgColorClass: 'bg-red-50' },
+        { icon: 'medical_services', label: 'Network Veterinarians', value: '158', trend: '+18% vs last month', trendUp: true, colorClass: 'text-amber-500', bgColorClass: 'bg-amber-50' },
+        { icon: 'check_circle', label: 'Total Consultations', value: '3,429', trend: '+8.2% vs last month', trendUp: true, colorClass: 'text-blue-500', bgColorClass: 'bg-blue-50' },
     ];
 
     return (
